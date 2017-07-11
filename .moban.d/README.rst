@@ -9,6 +9,6 @@ provides the functionality to pyexcel family.
 
 Quick evaluation::
 
-    $ pyexcel transcode --sheet-index 0 googl.ods google.sortable.html
+    $ pyexcel transcode --sheet-index 0 goog.ods google.sortable.html
 
 {%endblock%}
