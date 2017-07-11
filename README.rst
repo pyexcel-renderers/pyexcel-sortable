@@ -1,24 +1,30 @@
 ================================================================================
- - Let you focus on data, instead of file formats
+pyexcel-sortable - Let you focus on data, instead of file formats
 ================================================================================
 
 .. image:: https://raw.githubusercontent.com/pyexcel/pyexcel.github.io/master/images/patreon.png
    :target: https://www.patreon.com/pyexcel
 
-.. image:: https://api.travis-ci.org/pyexcel/.svg?branch=master
-   :target: http://travis-ci.org/pyexcel/
+.. image:: https://api.travis-ci.org/pyexcel/pyexcel-sortable.svg?branch=master
+   :target: http://travis-ci.org/pyexcel/pyexcel-sortable
 
-.. image:: https://codecov.io/github/pyexcel//coverage.png
-   :target: https://codecov.io/github/pyexcel/
+.. image:: https://codecov.io/github/pyexcel/pyexcel-sortable/coverage.png
+   :target: https://codecov.io/github/pyexcel/pyexcel-sortable
 
 .. image:: https://img.shields.io/gitter/room/gitterHQ/gitter.svg
    :target: https://gitter.im/pyexcel/Lobby
 
-.. image:: https://readthedocs.org/projects//badge/?version=latest
-   :target: http://.readthedocs.org/en/latest/
+.. image:: https://readthedocs.org/projects/pyexcel-sortable/badge/?version=latest
+   :target: http://pyexcel-sortable.readthedocs.org/en/latest/
 
 
-**** does xyz.
+**pyexcel-sortable** is inspired by `csvtotable <https://github.com/vividvilla/csvtotable>`_ and
+provides the functionality to pyexcel family.
+
+Quick evaluation::
+
+    $ pyexcel transcode --sheet-index 0 googl.ods google.sortable.html
+
 
 
 
@@ -28,15 +34,15 @@ You can install it via pip:
 
 .. code-block:: bash
 
-    $ pip install 
+    $ pip install pyexcel-sortable
 
 
 or clone it and install it:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/pyexcel/.git
-    $ cd 
+    $ git clone https://github.com/pyexcel/pyexcel-sortable.git
+    $ cd pyexcel-sortable
     $ python setup.py install
 
 
@@ -61,8 +67,8 @@ Development guide
 
 Development steps for code changes
 
-#. git clone https://github.com/pyexcel/.git
-#. cd 
+#. git clone https://github.com/pyexcel/pyexcel-sortable.git
+#. cd pyexcel-sortable
 
 Upgrade your setup tools and pip. They are needed for development and testing only:
 

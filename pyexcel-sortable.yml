@@ -1,7 +1,8 @@
 overrides: "pyexcel.yaml"
-name: ""
+name: "pyexcel-sortable"
 nick_name: "sortable"
 version: "0.0.1"
+current_version: "0.0.1"
 release: "0.0.1"
 dependencies:
   - csvtotable >= 1.1.1
