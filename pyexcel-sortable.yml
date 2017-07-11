@@ -1,0 +1,8 @@
+overrides: "pyexcel.yaml"
+name: ""
+nick_name: "sortable"
+version: "0.0.1"
+release: "0.0.1"
+dependencies:
+  - csvtotable >= 1.1.1
+description: "Transform your csv file or a sheet of your xls, xlsx and ods into a sortable HTML file using csvtotable"
