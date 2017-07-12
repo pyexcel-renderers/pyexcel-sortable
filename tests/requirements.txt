@@ -5,3 +5,4 @@ coverage
 flake8
 pyexcel
 pyexcel-xls
+ordereddict;python_version<"2.7"
