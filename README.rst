@@ -19,14 +19,13 @@ pyexcel-sortable - Let you focus on data, instead of file formats
 **pyexcel-sortable** is inspired by `csvtotable <https://github.com/vividvilla/csvtotable>`_ and
 provides csvtotable functionality to pyexcel family.
 
+.. image:: https://github.com/pyexcel/pyexcel-sortable/raw/master/sortable.gif
+
+
 Quick evaluation::
 
     $ pyexcel transcode --sheet-index 0 goog.ods google.sortable.html
 
-Here's what you will get:
-
-
-.. image:: https://github.com/pyexcel/pyexcel-sortable/raw/master/sortable.gif
 
 
 
