@@ -17,3 +17,6 @@ Here's what you will get:
 .. image:: https://github.com/pyexcel/pyexcel-sortable/raw/master/sortable.gif
 
 {%endblock%}
+
+{%block documentation_link%}
+{%endblock %}

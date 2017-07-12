@@ -14,8 +14,6 @@ pyexcel-sortable - Let you focus on data, instead of file formats
 .. image:: https://img.shields.io/gitter/room/gitterHQ/gitter.svg
    :target: https://gitter.im/pyexcel/Lobby
 
-.. image:: https://readthedocs.org/projects/pyexcel-sortable/badge/?version=latest
-   :target: http://pyexcel-sortable.readthedocs.org/en/latest/
 
 
 **pyexcel-sortable** is inspired by `csvtotable <https://github.com/vividvilla/csvtotable>`_ and
