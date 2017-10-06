@@ -1,1 +1,1 @@
-csvtotable >= 1.1.1
+excel2table >= 2.2.0
