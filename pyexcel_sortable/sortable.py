@@ -27,18 +27,19 @@ class Sortable(Renderer):
 
         html = render_template(
             sheet.colnames, sheet.array[1:],
-            notebook=True, # difference
+            notebook=True,
             caption=caption, display_length=display_length)
         self._stream.write(html)
 
     def render_sheet(self, sheet, caption="", display_length=None,
-                             **keywords):
+                     **keywords):
         if len(sheet.colnames) == 0:
             sheet.name_columns_by_row(0)
 
         html = render_template(
             sheet.colnames, sheet.array[1:],
             caption=caption, pagination=True, export=False,
+            virtual_scroll=-1,
             display_length=display_length)
 
         js_freezed_html = freeze_js(html)
