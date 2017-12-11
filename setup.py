@@ -39,7 +39,7 @@ CLASSIFIERS = [
 ]
 
 INSTALL_REQUIRES = [
-    'csvtotable >= 2.0',
+    'excel2table >= 2.2.0',
 ]
 
 

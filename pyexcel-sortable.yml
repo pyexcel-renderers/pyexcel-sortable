@@ -5,5 +5,5 @@ version: "0.0.1"
 current_version: "0.0.1"
 release: "0.0.1"
 dependencies:
-  - csvtotable >= 2.0
+  - excel2table >= 2.2.0
 description: "Transform your csv file or a sheet of your xls, xlsx and ods into a sortable HTML file using csvtotable"
