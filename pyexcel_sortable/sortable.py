@@ -22,7 +22,8 @@ class Sortable(Renderer):
 
         html = render_template(
             sheet.colnames, sheet.array[1:],
-            caption=caption, display_length=display_length)
+            caption=caption, pagination=True, export=False,
+            display_length=display_length)
 
         js_freezed_html = freeze_js(html)
         if PY2:

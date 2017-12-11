@@ -1,1 +1,1 @@
-csvtotable >= 1.1.1
+csvtotable >= 2.0
